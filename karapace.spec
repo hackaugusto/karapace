@@ -1,6 +1,7 @@
 Name:           karapace
 Version:        %{major_version}
 Release:        %{minor_version}%{?dist}
+Epoch: 1000
 Url:            http://github.com/aiven/karapace
 Summary:        Your Kafka essentials in one tool
 License:        ASL 2.0
@@ -21,7 +22,7 @@ Requires:       python3-aiohttp
 Requires:       python3-aiokafka
 Requires:       python3-aiohttp_socks
 Requires:       python3-avro
-Requires:       python3-kafka
+Requires:       python3-kafka >= 1000:2.0.3.dev0+2156.8c6ab20f
 Requires:       python3-lz4
 Requires:       python3-requests
 Requires:       python3-jsonschema
